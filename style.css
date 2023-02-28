@@ -39,7 +39,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /************************** GENERAL CSS ***************************/
 
 body {
-    background-color: hsl(0, 0%, 81%);
+    background-color: hsl(210, 46%, 95%); /*! Correction V2 */
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
     min-height: 100vh;
@@ -49,6 +49,7 @@ body {
     border-radius: 10px;
     padding: 2em;
     margin: 2rem;
+    min-width: 275px; /*! Correction V2 */
 }
 
 img { 
@@ -134,7 +135,8 @@ h2 {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
-        grid-row-gap: 0px;  
+        grid-row-gap: 0px;
+        max-width: 1426px; /*! Correction V2 */
     }
 
     .card {
